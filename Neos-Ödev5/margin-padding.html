@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+.box {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.box1 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  background-color: lightskyblue;
+}
+
+.box2 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-color: green;
+}
+
+.box3 {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: orange
+}
+
+.mini-box{  
+    width: 5px;
+    height: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: orange;
+
+}
+
+.mini-box1{
+    width: 5px;
+    height: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    background-color: lightblue;
+    }
+
+.mini-box2 {
+    width: 5px;
+    height: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 38px;
+    left: 4px;
+    background-color: green;
+}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="box1">
+    <div class="mini-box2"></div></div>
+  <div class="box2"></div>
+    <div class="mini-box"></div>
+  <div class="box3">
+    <div class="mini-box1"></div>
+        
+</div>
+</body>
+</html>
+
+

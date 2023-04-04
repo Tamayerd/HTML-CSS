@@ -1,0 +1,38 @@
+.site-container{
+    width: 400px;
+}
+.banner img{ width: 350px;}
+
+.card-body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.person-info{
+    color: gray;
+    font-weight: bolder;
+}
+.card-footer button{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+
+}
+.social{
+    color: black;
+}
+
+#linkedin{
+    color: black;
+
+}
+
+#insta{
+    color: black;
+}
+
+#twitter{
+    color: black;
+}
