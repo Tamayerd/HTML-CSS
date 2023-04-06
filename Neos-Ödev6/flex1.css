@@ -1,0 +1,217 @@
+
+.box{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(248, 136, 32);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 2px solid black;
+    margin: 8px;
+    border: 2px;
+    padding: 16px 8px 0;
+    border: 1px solid black;
+
+}
+.box1{
+    
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    border: 3px;
+    background-color: rgb(255, 200, 2);
+    margin: 0 4px 4px;
+    flex-basis: 10%;
+    border: 1px solid black;
+}
+
+.box2{
+    
+    height: 25px;
+    flex-direction: row;
+    display: flex;
+    border: 3px;
+    background-color: rgb(255, 200, 2);
+    margin: 0 4px 4px;
+    flex-basis: 20%;
+    border: 1px solid black;
+    
+}
+
+.box3{
+    
+    height: 25px;
+    flex-direction: row;
+    display: flex;
+    border: 3px;
+    background-color: rgb(255, 200, 2);
+    margin: 0 4px 4px;
+    flex-basis: 5%;
+    border: 1px solid black;
+    
+}
+.box-0{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(248, 136, 32);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 2px solid black;
+    margin: 8px;
+    border: 2px;
+    padding: 16px 8px 0;
+    border: 1px solid black;
+
+}
+
+
+.container{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(248, 136, 32);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 8px;
+    border: 2px;
+    padding: 16px 8px 0;
+    border: 1px solid black;
+
+}
+
+.container0{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(248, 136, 32);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px;
+    border: 2px;
+    padding: 16px 8px 0;
+    border: 1px solid black;
+}
+
+
+
+.container0{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(248, 136, 32);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px;
+    border: 2px;
+    padding: 16px 8px 0;
+    border: 1px solid black;
+
+}
+.container-0{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(248, 136, 32);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 8px;
+    border: 2px;
+    padding: 16px 8px 0;
+    border: 1px solid black;
+}
+
+.container-1{
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    border: 3px;
+    background-color: rgb(255, 200, 2);
+    margin: 0 4px 4px;
+    flex-basis: 10%;
+    margin-left: 30px;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.container-2{
+    height: 25px;
+    flex-direction: row;
+    display: flex;
+    border: 3px;
+    background-color: rgb(255, 200, 2);
+    margin: 0 4px 4px;
+    flex-basis: 20%;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.container-3{
+    height: 25px;
+    flex-direction: row;
+    display: flex;
+    border: 3px;
+    background-color: rgb(255, 200, 2);
+    margin: 0 4px 4px;
+    flex-basis: 5%;
+    margin-left: auto;
+    margin-right: 30px;
+    border: 1px solid black;
+}
+.box0{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(248, 136, 32);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px;
+    border: 2px;
+    padding: 16px 8px 0;
+    border: 1px solid black;
+}
+
+.container1{
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    border: 3px;
+    background-color: rgb(255, 200, 2);
+    margin: 0 4px 4px;
+    flex-basis: 10%;
+    margin-left: 60px;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.container2{
+    height: 25px;
+    flex-direction: row;
+    display: flex;
+    border: 3px;
+    background-color: rgb(255, 200, 2);
+    margin: 0 4px 4px;
+    flex-basis: 20%;
+    margin-right: 30px;
+    border: 1px solid black;
+}
+.container3{
+    height: 25px;
+    flex-direction: row;
+    display: flex;
+    border: 3px;
+    background-color: rgb(255, 200, 2);
+    margin: 0 4px 4px;
+    flex-basis: 5%;
+    margin-left: auto;
+    margin-right: 60px;
+    border: 1px solid black;
+}
