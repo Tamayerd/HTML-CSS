@@ -1,0 +1,120 @@
+
+
+body {
+    
+    border-left: 70px solid #ccc;
+    border-right: 70px solid #ccc;
+  }
+.ul{
+    list-style-type: none;
+}
+
+
+.film-adi h1{
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+
+}
+.film-banner{
+    background-image: url("rez.jpg");
+    height: 500px;
+    background-size:auto ;
+    background-repeat: repeat;
+    filter: contrast(1.8) brightness(1.5) grayscale(1);
+    background-size: auto;
+    background-position: center ;
+    background-attachment: fixed;
+}
+.film-watch {
+  
+
+    text-align: center;
+}
+.film-watch button{
+  
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00ff26;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+  }
+.film-watch button:hover{
+    background-color: #cc0052;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    transform: translateY(-4px);
+}
+
+.site-container{
+    margin-left: 30rem ;
+    margin-right: 30rem;
+}
+.film-banner, .film-watch button{
+    border-radius: 70px;
+    border: #1c2158;
+}
+.card{
+    width: 650px;
+    padding: 40px;
+    background: #1c2158;
+    margin: auto;
+    transition: .3s ease;
+    box-shadow: 0 5px 20px rgba(0,0,0,.8);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #4e1f1f;
+    
+    color: #fca311;
+    text-decoration: none;
+    border-bottom: 2px solid #fca311;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.card1{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    transform: perspective(800px) rotateX(10deg);
+     
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color:  #fca311;
+    text-shadow: 1px 1px 2px #ccc;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    }
+    .card1:before{
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+        z-index: -1;
+        background-color: #503535;
+        border-radius: 5px;
+        transform: scale(0.95);}
